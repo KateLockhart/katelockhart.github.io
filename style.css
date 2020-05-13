@@ -1,0 +1,217 @@
+body {
+   margin: 0;
+   background-image: url("https://www.transparenttextures.com/patterns/squairy.png");
+   background-color: #ffffffde;
+   background-repeat: repeat;
+}
+
+nav {
+    margin: 10px;
+}
+
+#imgDiv {
+    width: 95%;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.directImg {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+    align-content: center;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    left: 25%;
+}
+
+#quote {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 100%;
+    left: 15%;
+}
+
+#iDo {
+    width: 95%;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+#iDo1 {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+    left: 140px;
+}
+
+#iDo2 {
+    height: 500px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 2%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 25%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 400px;
+    justify-content: space-evenly;
+}
+
+#what {
+    margin-top: 18px;
+    margin-bottom: -18px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    margin: 25px;
+}
+
+#iDo3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+    left: 120px;
+}
+
+#pp {
+    width: 95%;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    background-color: white;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#projectT {
+    width: 100%;
+    height: 105px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#ppTitle {
+    text-decoration: underline;
+}
+
+.card-deck {
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#aboutMe {
+    width: 95%;
+    height: 575px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;  
+}
+
+#about{
+    text-decoration: underline;
+}
+
+#resume {
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+}
+
+#contactDiv {
+    width: 95%;
+    height: 575px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-content: center;
+    padding: 75px;
+    display: block;
+}
+
+#contactText {
+    margin-bottom: 60px;
+}
+
+#form {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(238, 238, 238, 0.918);
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#preFooter {
+    width: 80%;
+    height: 300px;
+    border-top: 1px solid grey;
+    margin: auto;
+    padding: 40px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#moreLinks {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.mLink {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+#footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(212, 211, 211);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3px;
+    text-align: center;
+    padding: 3px;
+}
+
