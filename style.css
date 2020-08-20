@@ -10,8 +10,8 @@ nav {
 }
 
 #imgDiv {
-    width: 95%;
-    height: 600px;
+    width: 100%;
+    height: 75vh;
     text-align: center;
     margin: auto;
     padding: 10px;
@@ -21,30 +21,34 @@ nav {
     width: 450px;
     height: 450px;
     border-radius: 50%;
+    margin-left: 18vw;
+    margin-top: 10vh;
     object-position: center;
     object-fit: cover;
     align-content: center;
     display: block;
-    position: absolute;
+    position: relative;
     z-index: 1;
-    top: 15%;
-    left: 25%;
+    /* top: 15%;
+    left: 25%; */
 }
 
 #quote {
     font-size: 25px;
+    margin-top: 2vh;
+    margin-left: 44vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     position: absolute;
     text-align: center;
     z-index: 1;
-    top: 100%;
-    left: 15%;
+    /* top: 100%;
+    left: 15%; */
 }
 
 #iDo {
-    width: 95%;
-    height: 600px;
+    width: 100%;
+    height: 80vh;
     text-align: center;
     margin: auto;
     margin-top: 40px;
@@ -56,7 +60,8 @@ nav {
 #iDo1 {
     display: inline-flex;
     flex-direction: column;
-    margin: 20px;
+    margin-top: -3%;
+    margin-left: 15%;
     justify-content: space-evenly;
     position: relative;
     z-index: 1;
@@ -64,13 +69,14 @@ nav {
 }
 
 #iDo2 {
-    height: 500px;
+    height: 56vh;
     border: 2px solid black;
     background-color: white;
     border-radius: 2%;
     padding: 10px;
-    margin-top: 50px;
-    margin-left: 25%;
+    margin-top: 5%;
+    margin-left: 19%;
+    padding: 2%;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -79,25 +85,29 @@ nav {
 }
 
 #what {
-    margin-top: 18px;
-    margin-bottom: -18px;
+    margin-top: 2vh;
     text-decoration: underline;
+}
+
+#iDo2p {
+    margin-top: -2.5vh;
 }
 
 p {
     font-size: 20px;
-    margin: 25px;
+    margin: 2px;
 }
 
 #iDo3 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 20px;
+    margin-bottom: 3%;
+    margin-left: 10%;
     justify-content: space-evenly;
     position: relative;
     z-index: 1;
-    left: 120px;
+    /* left: 120px; */
 }
 
 #pp {
@@ -105,19 +115,19 @@ p {
     height: 130px;
     text-align: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 5vh;
     padding: 10px;
+    padding-top: 5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     background-color: white;
     border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    
 }
 
 #projectT {
     width: 100%;
-    height: 105px;
-    margin-top: 5px;
+    height: 15vh;
     text-align: center;
 }
 
@@ -126,15 +136,17 @@ p {
 }
 
 .card-deck {
-    margin: 30px;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #aboutMe {
     width: 95%;
-    height: 575px;
+    height: 30vw;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 5vw;
     padding: 60px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
@@ -154,7 +166,7 @@ p {
 
 #contactDiv {
     width: 95%;
-    height: 575px;
+    height: 35vw;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -193,6 +205,7 @@ p {
     text-decoration: none;
     color: black;
     display: inline-block;
+    font-size: 25px;
 }
 
 .mLink {
@@ -201,17 +214,18 @@ p {
     text-decoration: none;
     color: black;
     background-color: rgb(255, 255, 255);
-    padding: 30px;
+    padding: 15px;
+    margin-left: 6vw;
 }
 
 #footer {
     width: 100%;
-    height: 120px;
+    height: 7.5vw;
     background-color: rgb(212, 211, 211);
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3px;
+    font-size: 2px;
     text-align: center;
-    padding: 3px;
+    padding: 1px;
 }
 
