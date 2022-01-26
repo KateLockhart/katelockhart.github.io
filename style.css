@@ -11,7 +11,7 @@ nav {
 
 #imgDiv {
     width: 100%;
-    height: 75vh;
+    height: 85vh;
     text-align: center;
     margin: auto;
     padding: 10px;
@@ -21,8 +21,8 @@ nav {
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 10vh;
+    margin-left: 19vw;
+    margin-top: 15vh;
     object-position: center;
     object-fit: cover;
     align-content: center;
@@ -36,7 +36,7 @@ nav {
 #quote {
     font-size: 25px;
     margin-top: 2vh;
-    margin-left: 44vw;
+    margin-left: 45vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     position: absolute;
@@ -61,7 +61,7 @@ nav {
     display: inline-flex;
     flex-direction: column;
     margin-top: -3%;
-    margin-left: 15%;
+    margin-left: 18%;
     justify-content: space-evenly;
     position: relative;
     z-index: 1;
@@ -77,7 +77,7 @@ nav {
     margin-top: 5%;
     margin-left: 19%;
     padding: 2%;
-    display: inline-flex;
+    display: inline-block;
     flex-direction: column;
     align-items: center;
     flex-basis: 400px;
@@ -158,6 +158,11 @@ p {
     text-decoration: underline;
 }
 
+#about-me-text {
+    width: 60%;
+    margin-left:20%;
+}
+
 #resume {
     text-decoration: none;
     text-decoration: underline;
@@ -204,8 +209,9 @@ p {
 #moreLinks {
     text-decoration: none;
     color: black;
-    display: inline-block;
-    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
 }
 
 .mLink {
@@ -214,18 +220,17 @@ p {
     text-decoration: none;
     color: black;
     background-color: rgb(255, 255, 255);
-    padding: 15px;
-    margin-left: 6vw;
+    padding-top: 15px;
 }
 
 #footer {
     width: 100%;
-    height: 7.5vw;
+    height: 7vw;
     background-color: rgb(212, 211, 211);
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2px;
     text-align: center;
-    padding: 1px;
+    padding-top: 3vh;
 }
 
